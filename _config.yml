@@ -1,0 +1,10 @@
+markdown: redcarpet
+path: 'https://digitalvapor.github.io/PySkyAlmanac'
+google: UA-44642246-9
+name: 'San Francisco Sky Gazing Almanac'
+tagline: 'A sky almanac written in Python'
+username: digitalvapor
+city: 'San Francisco'
+png_file: https://github.com/digitalvapor/PySkyAlmanac/raw/gh-pages/2014_San_Francisco.png
+png_file_small: https://github.com/digitalvapor/PySkyAlmanac/raw/gh-pages/2014_San_Francisco_small.png
+pdf_file: https://github.com/digitalvapor/PySkyAlmanac/raw/master/almanac_2014_San_Francisco.pdf

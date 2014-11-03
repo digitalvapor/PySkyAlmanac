@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ site.city }} Sky Gazing Almanac by {{ site.username }}</title>
+
+    <link rel="stylesheet" href="{{ site.path }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.path }}/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.name }}</h1>
+        <p>{{ site.tagline }}</p>
+        <p class="view"><a href="https://github.com/{{ site.username }}/PySkyAlmanac">View the Project on GitHub <small>{{ site.username }}/PySkyAlmanac</small></a></p>
+        <ul>
+          <li><a href="{{ site.png_file }}">Download <strong>PNG File</strong></a></li>
+          <li><a href="{{ site.pdf_file }}">Download <strong>PDF File</strong></a></li>
+          <li><a href="https://github.com/{{ site.username }}/PySkyAlmanac">View On <strong>GitHub</strong></a></li>
+        </ul>
+        <a href='{{ site.png_file }}' alt='{{ site.city }} Chart'><img src='{{ site.png_file_small }}'></a>
+      </header>
+      <section>
+        <p>This is a sky gazing chart for {{ site.city }}. It was generated using <a href="https://github.com/{{ site.username }}/PySkyAlmanac">my fork</a> of <a href="https://github.com/atakan/PySkyAlmanac">atakan's PySkyAlmanac</a>.</p>
+
+        <h2><a name="readme" class="anchor" href="#readme"><span class="octicon octicon-link"></span></a>Readme</h2>
+        {{ content }}
+
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/{{ site.username }}">{{ site.username }}</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker({{ site.google }});
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
